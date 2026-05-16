@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../CSS/styles.css" />
+    <title>Veterinaria Huellitas</title>
+  </head>
+  <body>
+    <header>
+      <div class="div-logo">
+        <a href="../index.html" class="logo">Huellitas</a>
+      </div>
+
+      <nav class="header-nav">
+        <ul>
+          <li><a href="../index.html">Inicio</a></li>
+          <li><a href="./contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h1 class="titulo-contacto text-secondary">Contactanos</h1>
+      <form
+        class="form-contacto"
+        action="https://formspree.io/f/xaqvrblw"
+        method="POST"
+      >
+        <div class="grupo-input">
+          <label for="nombre">Nombre:</label>
+          <input id="nombre" type="text" name="nombre" required />
+        </div>
+        <div class="grupo-input">
+          <label for="email"> Correo electronico: </label>
+          <input id="email" type="email" name="email" required />
+        </div>
+        <div class="grupo-input">
+          <label for="mensaje"> Mensaje: </label>
+          <textarea id="mensaje" name="message" required></textarea>
+        </div>
+        <!-- your other form fields go here -->
+        <button class="btn bg-secondary text-dark" type="submit">Enviar</button>
+      </form>
+    </main>
+
+    <footer>
+      <p>Veterinaria huellitas</p>
+      <nav>
+        <ul class="footer-list">
+          <li><img src="../IMG/whatsapp.png" alt="logo-whatsapp" /></li>
+          <li><img src="../IMG/social.png" alt="logo-instagram" /></li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>
