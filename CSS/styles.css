@@ -293,3 +293,8 @@ section {
     width: 4rem;
   }
 }
+.carrito-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
