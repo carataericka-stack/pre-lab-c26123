@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "nombre": "Alimento balanceado",
+    "descripcion": "Alimento para perros y gatos según edad y tamaño.",
+    "precio": 8500,
+    "img": "./IMG/alimentomascota.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Shampoo para mascotas",
+    "descripcion": "Producto para higiene y cuidado del pelaje.",
+    "precio": 4200,
+    "img": "./IMG/bañoperro.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "Juguete mordillo",
+    "descripcion": "Juguete resistente para perros pequeños y medianos.",
+    "precio": 3500,
+    "img": "./IMG/cachorroperro.jpg"
+  },
+  {
+    "id": 4,
+    "nombre": "Consulta veterinaria",
+    "descripcion": "Atención clínica para perros y gatos.",
+    "precio": 15000,
+    "img": "./IMG/cachorrogato.jpg"
+  }
+]
