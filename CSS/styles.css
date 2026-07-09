@@ -68,7 +68,7 @@ p {
   background-color: #2f7d5c;
   color: white;
   border: none;
-  padding: 1.6rem;
+  padding: 1.4rem 2rem;
   border-radius: 1rem;
   cursor: pointer;
   font-weight: bold;
@@ -76,13 +76,18 @@ p {
   margin-top: 1rem;
 }
 
+.btn:hover {
+  background-color: #256548;
+}
+
 /* HEADER */
 
 header,
 footer {
-  background-color: #7cc6a4;
+  background-color: #2f7d5c;
   color: white;
   width: 100%;
+  padding: 2rem;
 
   display: flex;
   justify-content: space-around;
@@ -115,13 +120,17 @@ footer .footer-list {
   gap: 2rem;
 }
 
-.footer- list li {
-  padding: 1rem;
+.footer-list {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
 }
 
 .footer-list img {
-  width: 5rem;
-  padding: 0.5;
+  width: 3rem;
+  height: 3rem;
+  padding: 0.3rem;
 }
 
 .bg-primary {
@@ -175,12 +184,19 @@ footer .footer-list {
   gap: 1rem;
 
   padding-bottom: 2rem;
+  box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.03);
 }
 
 .card img {
   width: 100%;
   height: 20rem;
-  object-fit: cover;
+  object-fit: contain;
+  background-color: #f8f9fa;
 }
 /* SECCIONES */
 
