@@ -293,6 +293,8 @@ section {
     width: 4rem;
   }
 }
+
+/* CARRITO */
 .carrito-link {
   display: flex;
   align-items: center;
