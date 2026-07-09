@@ -7,7 +7,7 @@ import { actualizarContador } from "./ui.js";
 const renderizarProductos = () => {
   const contenedor = document.getElementById("contenedor-tarjetas");
 
-  fetch("./DATA/productos.json")
+  fetch("./data/productos.json")
     .then((res) => res.json())
     .then((data) => {
       data.forEach((producto) => {
